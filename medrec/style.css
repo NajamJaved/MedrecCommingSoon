@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.not1 {
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 59px;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: 0.7px;
+}
+
+.not2 {
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: 0.7px;
+}
+
+.commingsoon {
+  color: #000000;
+}
+
+.text {
+  margin-top: 15%;
+}
+
+.maindev {
+  margin-bottom: -146px;
+  margin-top: -185px;
+  padding: 10%;
+
+}
+
+@media (max-width: 768px) {
+
+  .logo,
+  .imgmain {
+    text-align: center;
+  }
+
+  .icon {
+    margin-top: 3%;
+  }
+}
+
+@media (max-width: 576px) {
+  .not1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .not2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .maindev {
+    padding: 5%;
+  }
+
+  .icon {
+    margin-top: 1%;
+  }
+}
+
+@media (max-width: 576px) {
+  .icon {
+      display: flex;
+      justify-content: center;
+      margin-top: 9rem !important;
+  }
+  .icon .container {
+      padding: 0;
+  }
+}
+@media (min-width: 320px) and (max-width:480px){
+  .icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem !important;
+}
+.icon .container {
+    padding: 0;
+}
+.imagelogo{
+  height: 113px !important;
+  width: 243px !important;
+  margin-top: -4px !important;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+}
